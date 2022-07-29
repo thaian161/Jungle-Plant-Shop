@@ -1,0 +1,32 @@
+<section class="admin-products-index">
+
+  <header class="page-header">
+    <h1>Admin &raquo; All Categories</h1>
+  </header>
+
+  <div class="well">
+    <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-warning' %>
+  </div>
+  <br>
+  <div class="panel panel-default products">
+
+    <table class="table table-bordered">
+      <thead>
+        <tr style="text-align:center">
+          <th>Category</th>
+          <th>Category ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%= render @categories %>
+      </tbody>
+    </table>
+
+  </div>
+
+</section>
+
+<div class="admin-footer">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_srcvuh0h.json"  background="transparent"  speed="0.75"  style="width: 500px; height: 200px;"  loop  autoplay></lottie-player>
+</div>
