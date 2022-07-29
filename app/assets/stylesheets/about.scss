@@ -24,7 +24,6 @@ h3,
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-  
 }
 
 .page-header {
@@ -37,18 +36,20 @@ h4 {
 }
 
 div.about-description {
-  width: 65%;
+  width: 60%;
 }
 
 div.about-animation {
-  padding-left: 4%;
-  padding-top: 5%;
+  padding-left: 10%;
+  // padding-top: 5%;
 }
 
 p {
-  font-size: 25px;
+  font-size: 23px;
 }
 
-.h1-about{
+.h1-about {
+  padding-top: 5%;
   color: #41613d;
+  text-align: center;
 }
