@@ -15,14 +15,12 @@ ActiveRecord::Schema.define(version: 2022_07_31_024331) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  #-------CATEGORIES TABLE-------
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-   #------- LINE ITEMS TABLE-------
   create_table "line_items", force: :cascade do |t|
     t.bigint "order_id"
     t.bigint "product_id"
@@ -35,7 +33,6 @@ ActiveRecord::Schema.define(version: 2022_07_31_024331) do
     t.index ["product_id"], name: "index_line_items_on_product_id"
   end
 
-   #-------ORDERS TABLE-------
   create_table "orders", force: :cascade do |t|
     t.integer "total_cents"
     t.datetime "created_at", precision: 6, null: false
@@ -44,7 +41,6 @@ ActiveRecord::Schema.define(version: 2022_07_31_024331) do
     t.string "email"
   end
 
-   #------- PRODUCTS TABLE-------
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.text "description"
@@ -57,7 +53,6 @@ ActiveRecord::Schema.define(version: 2022_07_31_024331) do
     t.index ["category_id"], name: "index_products_on_category_id"
   end
 
-   #------- USERS TABLE-------
   create_table "users", force: :cascade do |t|
     t.string :first_name
     t.string :last_name
