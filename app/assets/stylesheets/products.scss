@@ -1,3 +1,5 @@
+@import 'font-awesome';
+
 main section.products-index,
 main section.categories-show {
   .products {
@@ -100,4 +102,42 @@ main section.categories-show {
 .admin-footer {
   display: flex;
   justify-content: center;
+}
+
+p.welcome {
+  background-color: #edf4eb;
+  opacity: 0.8;
+  background-image: radial-gradient(#488035 1.1px, transparent 1.1px),
+    radial-gradient(#488035 1.1px, #edf4eb 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+}
+div.welcome {
+  padding: 2rem;
+  padding-top: 0rem;
+  background-color: #edf4eb;
+  opacity: 0.8;
+  background-image: radial-gradient(#488035 1.1px, transparent 1.1px),
+    radial-gradient(#488035 1.1px, #edf4eb 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+  border-radius: 1rem;
+}
+
+h5.ann {
+  color: #41613d;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-weight: 800;
+}
+div.welcome1 {
+  display: flex;
+  justify-content: center;
+}
+
+p.welcome {
+  color: #577f51;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 500;
 }

@@ -2,8 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-section {
-  padding: 4rem;
+section.user {
+  // padding: 3rem;
+  // padding-left: 0rem;
+  // padding-right: 0rem;
+
+  padding: 4rem 0.5rem 0rem 0.5rem;
 }
 
 .container-user {
@@ -19,6 +23,7 @@ section {
     radial-gradient(#488035 1.1px, #edf4eb 1.1px);
   background-size: 44px 44px;
   background-position: 0 0, 22px 22px;
+  border-radius: 0.6rem;
 }
 
 .form-control {
@@ -47,17 +52,21 @@ h6 {
 }
 
 div.info {
-  padding-left: 8%;
+  padding-left: 5%;
+  margin-right: 1.8%;
   // padding-top: 5%;
 }
 
 div.login {
   padding-top: 2rem;
+  padding-bottom: 1.8rem;
+  padding-left: 2.5rem;
+  padding-right: 3.5rem;
 }
 
-div.signup {
-  padding-top: 2rem;
-}
+// div.signup {
+//   padding-top: 0.5rem;
+// }
 
 input.btn.btn-primary.info {
   // background-color: #618f5b;
