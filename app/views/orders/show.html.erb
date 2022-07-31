@@ -1,3 +1,19 @@
+<style>
+.btn-primary{
+  color: #fff;
+  background-color: #73A1D6;
+  border-color:#73A1D6;
+}
+.btn-primary:hover{
+  color: #fff;
+  background-color: #2368B8;
+  border-color:#2368B8;
+}
+.order-summary.jumbotron{
+  margin-left: 35%
+}
+</style>
+
 <section class="orders-show">
 
   <header class="page-header">
@@ -39,10 +55,14 @@
     </table>
   </div>
 
-
+<br>
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_znmc6wrb.json"  background="transparent"  speed="0.75"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
   </div>
+
+<br>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
 
