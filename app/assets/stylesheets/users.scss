@@ -22,8 +22,50 @@ section {
 }
 
 .form-control {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5rem;
   border: none;
-  border-bottom: solid 3px;
+  border-bottom: solid 4px #41613d;
   background-color: transparent;
+}
+
+h2 {
+  color: #41613d;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+h6 {
+  color: #e09090;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+div.info {
+  padding-left: 8%;
+  // padding-top: 5%;
+}
+
+div.signup {
+  padding-top: 2rem;
+}
+
+input.btn.btn-primary.info {
+  // background-color: #618f5b;
+  background-color: #e09090;
+  border: #e09090;
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-left: 40%;
+}
+
+input.btn.btn-primary.info:hover {
+  background-color: #618f5b;
+  border: #618f5b;
+  font-weight: 800;
 }

@@ -1,9 +1,9 @@
 <section>
 <div class="container-user">
 
-  <div class="animation">
+  <div class="animation signup">
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_pprxh53t.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+  <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_pprxh53t.json"  background="transparent"  speed="1"  style="width: 450px; height: 450px;"  loop  autoplay></lottie-player>
   </div>
 
   <div class="info">
@@ -18,8 +18,8 @@
       <%= f.text_field :email, placeholder: "Email", class: 'form-control'  %>
       <%= f.password_field :password, placeholder: "Password", class: 'form-control'  %>
       <%= f.password_field :password_confirmation, placeholder: "Re-type your password", class: 'form-control'  %>
-      <br>
-      <%= f.submit "SIGN UP", class:"btn btn-primary" %>
+      
+      <%= f.submit "SIGN UP", class:"btn btn-primary info" %>
     <% end %>
   </div>
 
