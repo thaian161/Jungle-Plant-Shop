@@ -1,3 +1,29 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+section {
+  padding: 4rem;
+}
+
+.container-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // background-color: #edf4eb;
+  padding: 4rem;
+
+  background-color: #edf4eb;
+  opacity: 0.8;
+  background-image: radial-gradient(#488035 1.1px, transparent 1.1px),
+    radial-gradient(#488035 1.1px, #edf4eb 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+}
+
+.form-control {
+  margin-bottom: 0.25em;
+  border: none;
+  border-bottom: solid 3px;
+  background-color: transparent;
+}
