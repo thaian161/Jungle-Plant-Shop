@@ -90,9 +90,27 @@ RSpec.describe User, type: :model do
 
 
 
-  # describe '.authenticate_with_credentials' do
-  #           # examples for this class method here
-  # end
+  describe '.authenticate_with_credentials' do
+            
+    it 'should loggedUser in with correct credentials from signup' do
+      @user =
+        User.new(
+          first_name: 'Ann', 
+          last_name: 'Bui',
+          email: 'an@bui.com', 
+          password: '1234',
+          password_confirmation: '1234'
+        )
+
+      @user.save
+
+      loggedUser =
+        User.authenticate_with_credentials(@user.email, @user.password)
+
+      expect(loggedUser.id).to be (@user.id)
+    end
+
+  end
 
 
   end
