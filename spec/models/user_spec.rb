@@ -18,6 +18,19 @@ RSpec.describe User, type: :model do
       end
 
 
+      it 'should not create user if password confirmation is not match with password' do
+        @user = User.new(
+          first_name: 'Ann', 
+          last_name: 'Bui',
+          email: 'an@bui.com', 
+          password: '1234',
+          password_confirmation: '4321')
+
+          @user.save
+    
+          expect(@user).not_to be_valid
+        end
+
   end
 
 end
