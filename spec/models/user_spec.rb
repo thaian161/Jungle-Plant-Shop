@@ -110,6 +110,48 @@ RSpec.describe User, type: :model do
       expect(loggedUser.id).to be (@user.id)
     end
 
+    it 'should work if user accidentally add space when login' do
+      @user =
+        User.new(
+          first_name: 'Ann', 
+          last_name: 'Bui',
+          email: 'an@bui.com', 
+          password: '1234',
+          password_confirmation: '1234'
+        )
+
+      @user.save
+
+      loggedUser =
+        User.authenticate_with_credentials(
+          ' an@bui.com',
+          @user.password,
+        )
+
+      expect(loggedUser.id).to be (@user.id)
+    end
+
+    it 'no case_sensitive in email field' do
+      @user =
+        User.new(
+          first_name: 'Ann', 
+          last_name: 'Bui',
+          email: 'an@bui.com', 
+          password: '1234',
+          password_confirmation: '1234'
+        )
+
+      @user.save
+
+      loggedUser =
+        User.authenticate_with_credentials(
+          'An@bUi.cOm',
+          @user.password,
+        )
+
+      expect(loggedUser.id).to be (@user.id)
+    end
+
   end
 
 
