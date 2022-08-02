@@ -31,6 +31,20 @@ RSpec.describe User, type: :model do
           expect(@user).not_to be_valid
         end
 
+
+        it 'should not create user if password length is less than 3 characters' do
+          @user = User.new(
+            first_name: 'Ann', 
+            last_name: 'Bui',
+            email: 'an@bui.com', 
+            password: '12',
+            password_confirmation: '12')
+  
+            @user.save
+      
+            expect(@user).not_to be_valid
+          end
+
   end
 
 end
