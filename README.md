@@ -8,6 +8,8 @@ This is my sixth project at LHL after [Lotide](https://github.com/thaian161/loti
 
 ### [🌿 Watch Live Demo Here 🌿](https://youtu.be/uNaOVM1S9eI)
 
+<p align="center">
+
 #### _Landing Page_
 
 !["Landing Page"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/landing%20lap.png)
@@ -63,6 +65,8 @@ This is my sixth project at LHL after [Lotide](https://github.com/thaian161/loti
 #### _Admin All Count Dashboard_
 
 !["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/product%20count%20dashboard.png)
+
+</p>
 
 ## Setup
 
