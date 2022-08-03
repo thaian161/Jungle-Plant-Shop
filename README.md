@@ -20,7 +20,7 @@ This is my sixth project at LHL after [Lotide](https://github.com/thaian161/loti
 
 #### _About Us Page_
 
-!["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/about.pngg)
+!["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/about.png)
 
 #### _User Sign Up Page_
 
