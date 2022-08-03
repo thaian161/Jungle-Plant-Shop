@@ -6,7 +6,7 @@ This is my sixth project at LHL after [Lotide](https://github.com/thaian161/loti
 
 ## Final Product
 
-### [🌸 Watch Live Demo Here 🌸](https://youtu.be/uNaOVM1S9eI)
+### [🌿 Watch Live Demo Here 🌿](https://youtu.be/uNaOVM1S9eI)
 
 #### _Landing Page_
 
