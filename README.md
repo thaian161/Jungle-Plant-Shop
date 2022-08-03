@@ -1,8 +1,8 @@
 # Jungle Plant Shop Project
 
-A full functionality mini e-commerce application built with Ruby and Rails 6.1.
-Admin can log in to add more products/category to admin's dashboard.
-Users can sign up and log in to browse products, add products to cart and purchase with credit/debit cards.
+> A full functionality mini e-commerce application built with **Ruby and Rails 6.1**. Using Active Record for database and RSpecs testing librar.
+> Admin can log in to add more products/category to admin's dashboard.
+> Users can sign up and log in to browse products, add products to cart and purchase with credit/debit cards.
 
 This is my sixth project at LHL after [Lotide](https://github.com/thaian161/lotide), [TinyApp](https://github.com/thaian161/tinyApp), [Tweeter](https://github.com/thaian161/tweeter), midterm project [Bake-It-Up](https://github.com/thaian161/Bake-It-Up), and [Scheduler](https://github.com/thaian161/Scheduler-react)
 
@@ -12,7 +12,7 @@ This is my sixth project at LHL after [Lotide](https://github.com/thaian161/loti
 
 #### _Landing Page_
 
-!["Landing Page"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/laptop%20landing.png)
+!["Landing Page"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/landing%20lap.png)
 
 #### _Responsive Landing Page on Ipad_
 
@@ -49,6 +49,22 @@ This is my sixth project at LHL after [Lotide](https://github.com/thaian161/loti
 #### _Admin Products Dashboard_
 
 !["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/dashboard.png)
+
+#### _Admin Adding Product_
+
+!["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/new%20product.png)
+
+#### _Admin Category Dashboard_
+
+!["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/category%20dash.png)
+
+#### _Admin Adding Category_
+
+!["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/new%20cate.png)
+
+#### _Admin All Count Dashboard_
+
+!["Error"](https://github.com/thaian161/Jungle-Plant-Shop/blob/master/public/product%20count%20dashboard.png)
 
 ## Setup
 
