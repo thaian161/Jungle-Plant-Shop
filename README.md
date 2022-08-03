@@ -1,12 +1,12 @@
 # Jungle Plant Shop Project
 
-> A full functionality mini e-commerce application built with Ruby and Rails 6.1. Using Active Record for database and RSpecs testing library. Admin can log in to add more products/categories to admin's dashboard. Users can sign up and log in to browse products, add products to cart and purchase with credit/debit cards.
+> A full functionality mini e-commerce application built with **Ruby and Rails 6.1**. Using **Active Record** for database and **RSpecs** testing library. Admin can log in to add more products/categories to admin's dashboard. Users can sign up and log in to browse products, add products to cart and purchase with credit/debit cards.
 
 This is my sixth project at LHL after [Lotide](https://github.com/thaian161/lotide), [TinyApp](https://github.com/thaian161/tinyApp), [Tweeter](https://github.com/thaian161/tweeter), midterm project [Bake-It-Up](https://github.com/thaian161/Bake-It-Up), and [Scheduler](https://github.com/thaian161/Scheduler-react)
 
 ## Final Product
 
-### [👋 Watch Live Demo Here 👋](https://youtu.be/OzJA77gHJeU)
+### [🌿 Watch Live Demo Here 🌸](https://youtu.be/uNaOVM1S9eI)
 
 #### _Landing Page_
 
